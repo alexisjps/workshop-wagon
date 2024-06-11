@@ -1,0 +1,65 @@
+/* Write some CSS below */
+.title {
+  color: red;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600; /* c'est normale */
+}
+
+.banner {
+  background-image: url('images/background.jpg');
+  height: 70vh;
+}
+
+.banner {
+  text-align: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+body{
+  margin: 0px;
+  background-color: grey;
+}
+
+.sous-titre{
+  color: white;
+}
+
+.text{
+  color: grey;
+}
+
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.img-card{
+  border-radius: 8px;
+  width: 100%;
+}
+.card{
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.btn-cta{
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
